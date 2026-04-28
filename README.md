@@ -16,8 +16,7 @@ Este proyecto aplica estructuras de datos avanzadas en un entorno práctico. A t
 
 ## ⬇️ Descarga
 
-[![Descargar aplicación](https://img.shields.io/badge/Descargar-Sistema%20AVL-blue?style=for-the-badge\&logo=github)](https://github.com/Ander2024-EM/arbol-avl-java/releases/latest)
-
+[![Descargar aplicación](https://img.shields.io/badge/Descargar-Sistema%20AVL-blue?style=for-the-badge&logo=github)](https://github.com/Ander2024-EM/arbol-avl-java/releases/download/v1.1/SistemaAVL_Setup.exe)
 ---
 
 ## ⚙️ Características
