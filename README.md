@@ -1,5 +1,9 @@
 # 🌳 AVL Student Management System
 
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge\&logo=java\&logoColor=white)
+![Estado](https://img.shields.io/badge/Estado-Activo-success?style=for-the-badge)
+![Versión](https://img.shields.io/badge/Versión-v1.0-blue?style=for-the-badge)
+
 Sistema desarrollado en Java que implementa un Árbol AVL para la gestión eficiente de estudiantes, incorporando una interfaz gráfica, manejo de datos y generación de reportes.
 
 ---
@@ -7,6 +11,12 @@ Sistema desarrollado en Java que implementa un Árbol AVL para la gestión efici
 ## 📌 Descripción
 
 Este proyecto aplica estructuras de datos avanzadas en un entorno práctico. A través de un Árbol AVL, se optimiza la organización y búsqueda de información, integrándolo en un sistema funcional con interfaz gráfica.
+
+---
+
+## ⬇️ Descarga
+
+[![Descargar aplicación](https://img.shields.io/badge/Descargar-Sistema%20AVL-blue?style=for-the-badge\&logo=github)](https://github.com/Ander2024-EM/arbol-avl-java/releases/latest)
 
 ---
 
@@ -31,21 +41,15 @@ Este proyecto aplica estructuras de datos avanzadas en un entorno práctico. A t
 * Java
 * Swing (Interfaz gráfica)
 * Programación Orientada a Objetos
-* iText (PDF)
+* iText (Generación de PDF)
 * MariaDB
 
 ---
 
-## ⬇️ Descarga y ejecución
+## ▶️ Ejecución
 
-Puedes descargar la versión lista para ejecutar desde el siguiente enlace:
-
-👉 **[Descargar aplicación](./Proyecto_AVL_Release.zip)**
-
-### ▶️ Instrucciones
-
-1. Descargar el archivo .zip
-2. Descomprimir el contenido
+1. Descargar la aplicación desde la sección de **Releases**
+2. Descomprimir el archivo `.zip`
 3. Ejecutar el archivo `ejecutar.bat`
 
 **Requisitos:**
@@ -56,7 +60,7 @@ Puedes descargar la versión lista para ejecutar desde el siguiente enlace:
 
 ## 📂 Estructura del proyecto
 
-```id="7t2mt1"
+```
 src/
  ├── Modelo/
  ├── dao/
