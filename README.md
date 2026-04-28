@@ -2,9 +2,9 @@
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge\&logo=java\&logoColor=white)
 ![Estado](https://img.shields.io/badge/Estado-Activo-success?style=for-the-badge)
-![Versión](https://img.shields.io/badge/Versión-v1.0-blue?style=for-the-badge)
+![Versión](https://img.shields.io/badge/Versión-v1.1-blue?style=for-the-badge)
 
-Sistema desarrollado en Java que implementa un Árbol AVL para la gestión eficiente de estudiantes, incorporando una interfaz gráfica, manejo de datos y generación de reportes.
+Sistema desarrollado en Java que implementa un Árbol AVL para la gestión eficiente de estudiantes, incorporando una interfaz gráfica moderna, manejo de datos y generación de reportes.
 
 ---
 
@@ -40,7 +40,7 @@ Este proyecto aplica estructuras de datos avanzadas en un entorno práctico. A t
 
 * Java
 * Swing (Interfaz gráfica)
-* Programación Orientada a Objetos
+* Programación Orientada a Objetos (POO)
 * iText (Generación de PDF)
 * MariaDB
 
@@ -49,8 +49,8 @@ Este proyecto aplica estructuras de datos avanzadas en un entorno práctico. A t
 ## ▶️ Ejecución
 
 1. Descargar la aplicación desde la sección de **Releases**
-2. Descomprimir el archivo `.zip`
-3. Ejecutar el archivo `ejecutar.bat`
+2. Ejecutar el archivo **SistemaAVL_Setup.exe**
+3. Seguir los pasos del instalador
 
 **Requisitos:**
 
