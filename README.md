@@ -1,13 +1,19 @@
 # 🌳 AVL Student Management System
 
-Sistema desarrollado en **Java** que implementa un **Árbol AVL** para la gestión eficiente de estudiantes, incorporando una **interfaz gráfica moderna**, manejo de datos y generación de reportes.
+Sistema desarrollado en Java que implementa un Árbol AVL para la gestión eficiente de estudiantes, incorporando una interfaz gráfica, manejo de datos y generación de reportes.
 
 ---
 
-## 🚀 Características principales
+## 📌 Descripción
+
+Este proyecto aplica estructuras de datos avanzadas en un entorno práctico. A través de un Árbol AVL, se optimiza la organización y búsqueda de información, integrándolo en un sistema funcional con interfaz gráfica.
+
+---
+
+## ⚙️ Características
 
 * 🌳 Implementación de Árbol AVL (auto-balanceado)
-* 👨‍🎓 Gestión de estudiantes (Crear, Editar, Eliminar, Buscar)
+* 👨‍🎓 Gestión de estudiantes (crear, editar, eliminar, buscar)
 * 🔄 Recorridos del árbol:
 
   * Inorden
@@ -15,40 +21,42 @@ Sistema desarrollado en **Java** que implementa un **Árbol AVL** para la gesti�
   * Postorden
 * 🖥️ Interfaz gráfica desarrollada en Java Swing
 * 📄 Generación de reportes en PDF y CSV
-* 🎨 Sistema de temas visuales:
-
-  * Claro
-  * Oscuro
-  * Azul noche
-* 🗄️ Integración con base de datos (MariaDB)
+* 🎨 Sistema de temas visuales (claro, oscuro, azul noche)
+* 🗄️ Integración con base de datos MariaDB
 
 ---
 
 ## 🛠️ Tecnologías utilizadas
 
 * Java
-* Swing (GUI)
-* Programación Orientada a Objetos (POO)
-* iText (Generación de PDF)
-* MariaDB (Base de datos)
+* Swing (Interfaz gráfica)
+* Programación Orientada a Objetos
+* iText (PDF)
+* MariaDB
 
 ---
 
-## 📸 Vista del sistema
+## ⬇️ Descarga y ejecución
 
-> ⚠️ Próximamente: capturas del sistema
+Puedes descargar la versión lista para ejecutar desde el siguiente enlace:
+
+👉 **[Descargar aplicación](./Proyecto_AVL_Release.zip)**
+
+### ▶️ Instrucciones
+
+1. Descargar el archivo .zip
+2. Descomprimir el contenido
+3. Ejecutar el archivo `ejecutar.bat`
+
+**Requisitos:**
+
+* Tener Java instalado (JDK 8 o superior)
 
 ---
 
-## 🎯 Objetivo del proyecto
+## 📂 Estructura del proyecto
 
-Este proyecto tiene como finalidad demostrar el uso de estructuras de datos avanzadas como los **Árboles AVL**, aplicadas en un sistema real con interfaz gráfica y manejo de información.
-
----
-
-## ⚙️ Estructura del proyecto
-
-```bash
+```id="7t2mt1"
 src/
  ├── Modelo/
  ├── dao/
@@ -58,24 +66,18 @@ src/
 
 ---
 
-## ▶️ Ejecución del proyecto
+## 🎯 Objetivo
 
-1. Abrir el proyecto en NetBeans
-2. Configurar conexión a base de datos (si aplica)
-3. Ejecutar la clase principal:
-
-   ```
-   Proyecto_Arbol.java
-   ```
+Demostrar la aplicación de estructuras de datos como los Árboles AVL dentro de un sistema funcional, integrando interfaz gráfica y persistencia de datos.
 
 ---
 
 ## 👨‍💻 Autor
 
-**Albert Elias**
+Albert Elias
 
 ---
 
-## ⭐ Nota
+## 📎 Nota
 
-Proyecto académico con enfoque práctico en estructuras de datos, desarrollo de interfaces gráficas y gestión de información.
+Proyecto académico orientado al desarrollo práctico de estructuras de datos, diseño de interfaces y gestión de información.
