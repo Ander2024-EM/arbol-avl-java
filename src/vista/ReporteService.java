@@ -13,7 +13,7 @@ import java.util.List;
 
 public class ReporteService {
 
-    private final String carpetaReportes = "reportes_generados";
+    private final String carpetaReportes = System.getProperty("user.home") + "\\Documents\\reportes_generados\\";
 
     public ReporteService() {
         File carpeta = new File(carpetaReportes);
@@ -27,7 +27,8 @@ public class ReporteService {
     }
 
     public String generarPdfGeneralEstudiantes(List<Estudiante> lista) throws Exception {
-        String ruta = carpetaReportes + "/estudiantes_general_" + fechaArchivo() + ".pdf";
+
+        String ruta = carpetaReportes + "estudiantes_general_" + fechaArchivo() + ".pdf";
 
         Document documento = new Document(PageSize.A4.rotate());
         PdfWriter.getInstance(documento, new FileOutputStream(ruta));
@@ -70,7 +71,8 @@ public class ReporteService {
     }
 
     public String generarCsvEstudiantes(List<Estudiante> lista) throws Exception {
-        String ruta = carpetaReportes + "/estudiantes_general_" + fechaArchivo() + ".csv";
+
+        String ruta = carpetaReportes + "estudiantes_general_" + fechaArchivo() + ".csv";
 
         try (FileWriter writer = new FileWriter(ruta)) {
             writer.write("ID,Nombre,Edad,Promedio,Carrera,Telefono,Correo\n");
@@ -92,7 +94,8 @@ public class ReporteService {
     }
 
     public String generarTxtRecorrido(String tipo, String contenido) throws Exception {
-        String ruta = carpetaReportes + "/recorrido_" + tipo + "_" + fechaArchivo() + ".txt";
+
+        String ruta = carpetaReportes + "recorrido_" + tipo + "_" + fechaArchivo() + ".txt";
 
         try (FileWriter writer = new FileWriter(ruta)) {
             writer.write("RECORRIDO " + tipo.toUpperCase() + "\n\n");
@@ -103,7 +106,8 @@ public class ReporteService {
     }
 
     public String generarPdfResumenAVL(int total, int altura, String inorden, String preorden, String postorden) throws Exception {
-        String ruta = carpetaReportes + "/resumen_avl_" + fechaArchivo() + ".pdf";
+
+        String ruta = carpetaReportes + "resumen_avl_" + fechaArchivo() + ".pdf";
 
         Document documento = new Document(PageSize.A4);
         PdfWriter.getInstance(documento, new FileOutputStream(ruta));
@@ -125,11 +129,9 @@ public class ReporteService {
 
         documento.add(new Paragraph("Recorrido Inorden", subtitulo));
         documento.add(new Paragraph(inorden, normal));
-        documento.add(new Paragraph(" "));
 
         documento.add(new Paragraph("Recorrido Preorden", subtitulo));
         documento.add(new Paragraph(preorden, normal));
-        documento.add(new Paragraph(" "));
 
         documento.add(new Paragraph("Recorrido Postorden", subtitulo));
         documento.add(new Paragraph(postorden, normal));
@@ -139,7 +141,8 @@ public class ReporteService {
     }
 
     public String generarPdfEstudianteIndividual(Estudiante e) throws Exception {
-        String ruta = carpetaReportes + "/estudiante_" + e.getId() + "_" + fechaArchivo() + ".pdf";
+
+        String ruta = carpetaReportes + "estudiante_" + e.getId() + "_" + fechaArchivo() + ".pdf";
 
         Document documento = new Document(PageSize.A4);
         PdfWriter.getInstance(documento, new FileOutputStream(ruta));
@@ -166,9 +169,7 @@ public class ReporteService {
     }
 
     private String limpiar(String texto) {
-        if (texto == null) {
-            return "";
-        }
+        if (texto == null) return "";
         return texto.replace(",", " ");
     }
 }
