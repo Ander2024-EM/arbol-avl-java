@@ -1,2 +1,10 @@
 /build/
 /dist/
+
+/Proyecto_AVL_Release/
+
+nbproject/private/
+
+*.exe
+*.jar
+*.log

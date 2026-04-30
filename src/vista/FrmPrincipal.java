@@ -8,6 +8,7 @@ import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
 
+import proyecto_arbol.ServidorAVL;
 
 public class FrmPrincipal extends JFrame {
 
@@ -23,6 +24,7 @@ public class FrmPrincipal extends JFrame {
 
     private JPanel panelLateral;
     private JPanel panelSuperior;
+    private PanelAsistente panelAsistente;
     
     public FrmPrincipal() {
         arbol = new ArbolAVL();
@@ -31,6 +33,7 @@ public class FrmPrincipal extends JFrame {
         configurarVentana();
         inicializarComponentes();
         refrescarTema();
+        ServidorAVL.iniciar(arbol);
     }
 
     private void configurarVentana() {
@@ -79,7 +82,10 @@ JButton btnSalir = crearBotonMenu("Salir", "/vista/icons/exit.png");
         btnRecorridos.addActionListener(e -> mostrarPanel("recorridos"));
         btnReportes.addActionListener(e -> mostrarPanel("reportes"));
         btnConfiguracion.addActionListener(e -> mostrarPanel("configuracion"));
-        btnAyuda.addActionListener(e -> mostrarPanel("ayuda"));
+btnAyuda.addActionListener(e -> {
+    mostrarPanel("ayuda");
+    panelAsistente.activarAsistente();
+});
         btnSalir.addActionListener(e -> System.exit(0));
 
         menu.add(btnInicio);
@@ -141,7 +147,8 @@ private JPanel crearPanelContenido() {
     panel.add(panelRecorridos, "recorridos");
     panel.add(new PanelReportes(arbol, dao), "reportes");
     panel.add(new PanelConfiguracion(arbol, this), "configuracion");
-    panel.add(crearPanelPlaceholder("Ayuda", "Manual de usuario y explicación del sistema."), "ayuda");
+panelAsistente = new PanelAsistente(arbol);
+panel.add(panelAsistente, "ayuda");
 
     cardLayout.show(panel, "inicio");
     return panel;
