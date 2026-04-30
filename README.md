@@ -1,4 +1,4 @@
-# 🌳 AVL Student Management System
+#  AVL Student Management System
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge\&logo=java\&logoColor=white)
 ![Estado](https://img.shields.io/badge/Estado-Activo-success?style=for-the-badge)
@@ -22,18 +22,18 @@ Este proyecto aplica estructuras de datos avanzadas en un entorno práctico. A t
 
 ## ⚙️ Características
 
-* 🌳 Implementación de Árbol AVL (auto-balanceado)
-* 👨‍🎓 Gestión de estudiantes (crear, editar, eliminar, buscar)
-* 🔄 Recorridos del árbol:
+*  Implementación de Árbol AVL (auto-balanceado)
+*  Gestión de estudiantes (crear, editar, eliminar, buscar)
+*  Recorridos del árbol:
 
   * Inorden
   * Preorden
   * Postorden
-* 🖥️ Interfaz gráfica desarrollada en Java Swing
-* 📄 Generación de reportes en PDF y CSV
-* 🎨 Sistema de temas visuales (claro, oscuro, azul noche)
-* 🧠 Integración de módulo asistente (nueva funcionalidad)
-* 🗄️ Integración con base de datos MariaDB
+*  Interfaz gráfica desarrollada en Java Swing
+*  Generación de reportes en PDF y CSV
+*  Sistema de temas visuales (claro, oscuro, azul noche)
+*  Integración de módulo asistente (nueva funcionalidad)
+*  Integración con base de datos MariaDB
 
 ---
 
