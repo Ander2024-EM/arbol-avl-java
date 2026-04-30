@@ -2,7 +2,7 @@
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge\&logo=java\&logoColor=white)
 ![Estado](https://img.shields.io/badge/Estado-Activo-success?style=for-the-badge)
-![Versión](https://img.shields.io/badge/Versión-v1.1-blue?style=for-the-badge)
+![Versión](https://img.shields.io/badge/Versión-v1.2-blue?style=for-the-badge)
 
 Sistema desarrollado en Java que implementa un Árbol AVL para la gestión eficiente de estudiantes, incorporando una interfaz gráfica moderna, manejo de datos y generación de reportes.
 
@@ -16,7 +16,8 @@ Este proyecto aplica estructuras de datos avanzadas en un entorno práctico. A t
 
 ## ⬇️ Descarga
 
-[![Descargar aplicación](https://img.shields.io/badge/Descargar-Sistema%20AVL-blue?style=for-the-badge&logo=github)](https://github.com/Ander2024-EM/arbol-avl-java/releases/download/v1.1/SistemaAVL_Setup.exe)
+[![Descargar aplicación](https://img.shields.io/badge/Descargar-Sistema%20AVL-blue?style=for-the-badge\&logo=github)](https://github.com/Ander2024-EM/arbol-avl-java/releases/download/v1.2/SistemaAVL_Setup.exe)
+
 ---
 
 ## ⚙️ Características
@@ -31,6 +32,7 @@ Este proyecto aplica estructuras de datos avanzadas en un entorno práctico. A t
 * 🖥️ Interfaz gráfica desarrollada en Java Swing
 * 📄 Generación de reportes en PDF y CSV
 * 🎨 Sistema de temas visuales (claro, oscuro, azul noche)
+* 🧠 Integración de módulo asistente (nueva funcionalidad)
 * 🗄️ Integración con base de datos MariaDB
 
 ---
@@ -45,11 +47,11 @@ Este proyecto aplica estructuras de datos avanzadas en un entorno práctico. A t
 
 ---
 
-## ▶️ Ejecución
+## ▶️ Instalación
 
-1. Descargar la aplicación desde la sección de **Releases**
-2. Ejecutar el archivo **SistemaAVL_Setup.exe**
-3. Seguir los pasos del instalador
+1. Descargar el instalador desde la sección de **Releases**
+2. Ejecutar **SistemaAVL_Setup.exe**
+3. Seguir los pasos del asistente de instalación
 
 **Requisitos:**
 
@@ -59,7 +61,7 @@ Este proyecto aplica estructuras de datos avanzadas en un entorno práctico. A t
 
 ## 📂 Estructura del proyecto
 
-```
+```bash
 src/
  ├── Modelo/
  ├── dao/
@@ -77,7 +79,7 @@ Demostrar la aplicación de estructuras de datos como los Árboles AVL dentro de
 
 ## 👨‍💻 Autor
 
-Albert Elias
+**Albert Elias**
 
 ---
 
